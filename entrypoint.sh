@@ -27,6 +27,9 @@ export PAGES_API_URL=$GITHUB_API_URL
 export KAKAO_JAVASCRIPT_KEY=$KAKAO_JAVASCRIPT_KEY
 export $GITHUB_ENV
 
+echo "The value of MY_SECRET is: $KAKAO_JAVASCRIPT_KEY"
+echo "The value of GITHUB_ENV is: $GITHUB_ENV"
+
 # Set verbose flag
 if [ "$INPUT_VERBOSE" = 'true' ]; then
   VERBOSE='--verbose'
